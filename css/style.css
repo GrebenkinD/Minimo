@@ -1,0 +1,184 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+body{
+	margin: 0;
+}
+.img-adaptive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.m-left-auto{
+	margin-left: auto;
+}
+.category{
+	width: 420px;
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+header{
+	height: 165px;
+}
+header div img{
+	display: inline-block;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+header nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+header nav ul li{
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 70px 0 70px 118px;
+}
+header nav ul li a{
+	color: #626262;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+section.content-post{
+	margin-top: 96px;
+	padding: 0 80px !important; 
+}
+section.content-post div.category a,
+section.content-post div.comment a{
+	color: #b4ad9e;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+section.content-post div.category a:hover,
+section.content-post div.comment a:hover{
+	text-decoration: underline;
+}
+section.content-post h2{
+	color: #626262;
+	font-size: 30px;
+}
+section.content-post div.content{
+	color: #626262;
+	font-size: 14px;	
+}
+section.content-post p{
+	margin-bottom: 50px;
+}
+section.block-post{
+	padding: 0 80px !important; 
+}
+section.block-post div.post img{
+	margin-top: 130px;
+	margin-bottom: 28px;
+}
+section.block-post div.post a{
+	color: #b4ad9e;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+section.block-post div.post a:hover{
+	text-decoration: underline;
+}
+section.block-post h2{
+	color: #626262;
+	font-size: 30px;
+	max-width: 420px;
+}
+section.block-post p{
+	color: #626262;
+	font-size: 14px;	
+	max-width: 420px;
+}
+section.news-letter{
+	margin-top: 130px;
+	height: 290px;
+	background: #f0f0f0;
+	padding-top: 70px;
+}
+section.news-letter div.sing-up-news-letter{
+	color: #626262;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+section.news-letter form{
+	width: 400px;
+	border-bottom: 1px solid #000;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+section.news-letter form input{
+	border: none;
+	background: inherit;
+}
+section.news-letter form button{
+	float: right;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+div.load-more{
+	text-align: center;
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+div.load-more a{
+	color: #626262;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 20px;
+	border: 1px solid #000;
+	display: inline-block; 
+}
+div.load-more a:hover{
+	text-decoration: underline;
+}
+footer{
+	height: 100px;
+	background: #f0f0f0;
+}
+footer div.container{
+	padding: 0 80px !important;
+}
+footer nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+footer nav ul li{
+	padding-top: 40px;
+	margin-right: 18px;
+	font-size: 14px;
+	display: inline-block;
+}
+footer nav ul li a{
+	color: #000;
+	text-decoration: none;
+}
+footer nav ul li a:hover{
+	text-decoration: underline;
+}
+footer p{
+	margin: 0;
+	font-size: 14px;
+	padding-top: 40px;
+	display: inline-block;
+}
+footer a{
+	margin-left: 18px;
+	padding-top: 40px;
+}
